@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb740042ef5f82f4eb4c970a5390a9a2, type: 3}
+  m_Name: Update Log
+  m_EditorClassIdentifier: 
+  CurrentVersion: 2.3
+  Log:
+  - Version: 1.0
+    Desc: Initial Release
+  - Version: 1.1
+    Desc: Fixed Actions displaying incorrect index even when the data is already
+      correctly set.
+  - Version: 1.2
+    Desc: Fixed Add Character Expression Error, Add Exit Button
+  - Version: 1.3
+    Desc: 'Changed Change Expression to string
+
+      Changed Character Script Parent
+      to string
+
+      Show => Show / Move
+
+      Change Expression => Set Expression
+
+      Add
+      Set In Game Style
+
+      Add Set VN Style
+
+      Add Start Tutorial
+
+      Add
+      Start Objective'
+  - Version: 1.4
+    Desc: 'Add change log
+
+      Add delete right click to almost everything
+
+      Add
+      F11 key to switch fullscreen
+
+      Fixed duplicate key error when importing
+      more than once during the same session.'
+  - Version: 1.5
+    Desc: 'Update deprecated data,
+
+      Internal refactor and cleaning'
+  - Version: 2.0
+    Desc: 'Revamp to ActionScript
+
+      Add ActionScript editor
+
+      Changed from
+      visual scripting to code scripting
+
+      Changed help into button
+
+      Removed
+      Character Scripts
+
+      Removed Main Thread
+
+      Removed Scene Scripts'
+  - Version: 2.1
+    Desc: 'Fixed saving and loading
+
+      Fixed new line and line deletion incorrect
+      parsing'
+  - Version: 2.2
+    Desc: 'Added move command:
+
+      - Move {Character} {position} {speed}
+
+      Added
+      typespeed command:
+
+      - TypeSpeed {delayInMilliseconds}
+
+      Changed
+      continue command to normal typing format, end with " ->" to mark the line as
+      continued, mind the space prefix:
+
+      - {text} ->
+
+      Fixes:
+
+      Delays
+      can now receive variables as parameter, same with TypeSpeed
+
+      Fixed reference
+      bug causing testing issues on InGame mode
+
+      Fixed most reference bugs
+      when commands are chained in a certain order
+
+      Fixed ActionScript displaying
+      incorrect value when  renamed'
+  - Version: 2.3
+    Desc: 'Moved all buttons into grouped menu buttons
+
+      Added <color=#00ff00>File
+      > New</color>
+
+      Creates new dkpbook
+
+      Added <color=#00ff00>View
+      > Reset Camera</color>
+
+      Resets camera position
+
+      Added <color=#00ff00>View
+      > Toggle Console</color>
+
+      Toggles console on and off
+
+      Added <color=#00ff00>View
+      > Clear Console</color>
+
+      Clears the console
+
+      Added <color=#00ff00>spawn
+      command:</color>
+
+      <color=#6495ED>Spawn</color> {<color=#AA00FF>count</color>}
+      {<color=#AA00FF>unit</color>} <color=#D0D0D0>at</color> {<color=#AA00FF>position</color>}
+      <color=#D0D0D0>every</color> {<color=#007FFF>interval</color>} <color=#D0D0D0>wait</color>
+      {<color=#007FFF>delay</color>}
+
+      Added <color=#00ff00>objective command:</color>
+
+      <color=#6495ED>Objective</color>
+      <color=#FFA500>kill</color> {<color=#AA00FF>count</color>} {<color=#AA00FF>unit</color>}
+
+      Added
+      <color=#00ff00>comment command:</color>
+
+      <color=#00ff00>// {comment}</color>
+
+      Removed
+      <color=#ff0000>trigger command</color>
+
+      Added <color=#00ff00>File >
+      Save</color>
+
+      Saves to current file
+
+      Changed <color=#00ff00>File
+      > Load</color>
+
+      Now actually loads the file and stores it in memory
+
+      Improved
+      help text
+
+      Changed scrolling to be more intuitive
+
+      Fixes:
+
+      Fixed
+      scrolling causing rendering issues
+
+      Fixed error caused by editing ActionScript
+      with no contents'

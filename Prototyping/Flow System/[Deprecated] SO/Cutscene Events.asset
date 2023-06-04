@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe992e1e29ab50c429746d57d603d6d0, type: 3}
+  m_Name: Cutscene Events
+  m_EditorClassIdentifier: 
+  Initialize: {fileID: 11400000, guid: 1ba688ad696ae1447b97fcb2598e3459, type: 2}
+  DialogueShowText: {fileID: 11400000, guid: c61a6724ef060194ebfedef70afa4bc0, type: 2}
+  ShowCharacter: {fileID: 11400000, guid: 1a0a09d4ab997c64895b0cfd50a66863, type: 2}
+  HideCharacter: {fileID: 11400000, guid: 6879fe48ae7dd8c4b8ff022193592781, type: 2}
+  SetExpression: {fileID: 11400000, guid: 743cf9c7bcb56304989a6e3bc1e5a4a3, type: 2}
+  SetCharacterName: {fileID: 11400000, guid: 48f12c89eb2a1e146bfe3abc25ea7ca6, type: 2}
+  ShowCharacterName: {fileID: 11400000, guid: 325985c9ccc9fbc49903cbf33aa2b4c8, type: 2}
+  HideCharacterName: {fileID: 11400000, guid: f9f7b29cb7d4993469d9300053ecd218, type: 2}
+  SetBackground: {fileID: 11400000, guid: a8ff0adbae0f86e4cb92d38238084c79, type: 2}
+  SetVNStyle: {fileID: 11400000, guid: e818969db9191fe4a90b3e92898a220d, type: 2}
+  SetInGameStyle: {fileID: 11400000, guid: d0bdf4e61d81bc044a2538ca9fa87a1d, type: 2}
+  StartTutorial: {fileID: 11400000, guid: 0181ef7d6d8540b4a8f84d8235cbc6a6, type: 2}
+  StartObjective: {fileID: 11400000, guid: b13693765996cd14f9d98bcb79844fca, type: 2}
